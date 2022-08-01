@@ -1,0 +1,14 @@
+<% provide(:title, t("about.title")) %>
+<h1><%=t("about.cheering")%></h1>
+<p>
+  <%= t("about.description")%><a><%= link_to t("about.tutorial"), Settings.urls.about.book %></a>
+    <%= t("about.description2")%>
+  <a><%= link_to t("about.book"), Settings.urls.about.learn_enough %></a>
+    <%= t("about.description3")%>
+  <a><%= link_to t("about.book2"), Settings.urls.about.book %></a>
+    <%= t("about.description4")%>
+  <a><%= link_to t("about.book3"), Settings.urls.about.series %></a>
+    <%= t("about.description5")%>
+  <a><%= link_to t("about.book3"), Settings.urls.about.ruby %></a>.
+    <%= t("about.description6")%>
+</p>

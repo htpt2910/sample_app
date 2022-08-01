@@ -1,0 +1,16 @@
+urls:
+  home:
+    rails: "https://www.railstutorial.org/"
+  about:
+    learn_enough: "https://www.learnenough.com/"
+    book: "https://www.railstutorial.org/book"
+    series: "https://screencasts.railstutorial.org/"
+    ruby: "https://rubyonrails.org/"
+  contact:
+    contact: "https://www.railstutorial.org/contact"
+  help:
+    help: "https://www.railstutorial.org/help"
+    book: "https://www.railstutorial.org/book"
+  footer:
+    author: "https://www.michaelhartl.com/"
+    news: "https://news.railstutorial.org/"
