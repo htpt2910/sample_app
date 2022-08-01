@@ -39,6 +39,12 @@ en:
     home: "Home"
     help: "Help"
     login: "Log in"
+    sample_app: "Sample App"
+    users: "Users"
+    account: "Account"
+    profile: "Profile"
+    setting: "Setting"
+    logout: "Log out"
   footer:
     description: "The "
     tutorial: "Ruby on Rails Tutorial"
@@ -61,3 +67,11 @@ en:
     contain: "The form contains: "
   user_controller:
     not_found: "User not found!"
+  login:
+    title: "Login"
+    cheering: "Login"
+    button: "Login"
+    signup: "Sign up now!"
+    new_user: "New user?"
+  sessions_controller:
+    danger: "Invalid email/password combination"

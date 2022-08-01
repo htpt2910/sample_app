@@ -39,6 +39,12 @@ vi:
     home: "Trang chủ"
     help: "Giúp đỡ"
     login: "Đăng nhập"
+    sample_app: "Sample App"
+    users: "Người dùng"
+    account: "Tài khoản"
+    profile: "Thông tin cá nhân"
+    setting: "Thiết lập"
+    logout: "Đăng xuất"
   footer:
     description: ""
     tutorial: "Giáo trình Ruby on Rails"
@@ -61,3 +67,11 @@ vi:
     contain: "Form bao gồm: "
   user_controller:
     not_found: "Không tồn tại người dùng này!"
+  login:
+    title: "Đăng nhập"
+    cheering: "Đăng nhập"
+    button: "Đăng nhập"
+    signup: "Đăng ký ngay!"
+    new_user: "Chưa có tài khoản?"
+  sessions_controller:
+    danger: "Tài khoản hoặc mật khẩu không hợp lệ"
