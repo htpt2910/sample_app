@@ -51,5 +51,13 @@ en:
     title: "Sign up"
     cheering: "Sign up"
     description: "This will be a signup page for new users."
+    confirm: "Confirmation"
+    create: "Create my account"
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
+  alert: 
+    welcome: "Welcome to the Sample App!"
+  form:
+    contain: "The form contains: "
+  user_controller:
+    not_found: "User not found!"
