@@ -51,5 +51,13 @@ vi:
     title: "Đăng ký"
     cheering: "Đăng ký"
     description: "Trang đăng ký dành cho người dùng mới."
+    confirm: "Xác thực mật khẩu"
+    create: "Tạo tài khoản"
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
+  alert: 
+    welcome: "Chào mừng đến với Sample App!"
+  form:
+    contain: "Form bao gồm: "
+  user_controller:
+    not_found: "Không tồn tại người dùng này!"
