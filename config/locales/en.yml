@@ -75,3 +75,6 @@ en:
     new_user: "New user?"
   sessions_controller:
     danger: "Invalid email/password combination"
+  session:
+    new:
+      remember_me: "Remember me on this computer"
