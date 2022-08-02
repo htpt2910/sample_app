@@ -72,6 +72,7 @@ vi:
     delete_success: "Người dùng đã bị xóa!"
     delete_fail: "Xóa người dùng thất bại!"
     login_request: "Hãy đăng nhập!"
+    info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản!"
   login:
     title: "Đăng nhập"
     cheering: "Đăng nhập"
@@ -93,4 +94,15 @@ vi:
   user:
     delete: "Xóa"
     confirm: "Bạn chắc chắn chứ?"
-  
+  account:
+    activate_success: "Tài khoản đã được kích hoạt!"
+    activate_fail: "Đường dẫn kích hoạt không hợp lệ!"
+    title: "Sample App"
+    hi: "Xin chào"
+    welcome: "Chào mừng đến với Sample App! Hãy kích vào đường dẫn phía dưới để kích hoạt tài khoản của bạn!"
+    link: "Kích hoạt"
+  mailer:
+    subject: "Kích hoạt tài khoản"
+    greeting: "Xin chào"
+  message:
+    content: "Tài khoản của bạn chưa được kích hoạt. Hãy kiểm tra lại email!"

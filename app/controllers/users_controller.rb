@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t("alert.welcome")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t "users_controller.info"
+      redirect_to root_url
     else
       flash[:danger] = @user.errors.full_messages.to_sentence
       render :new
@@ -30,19 +30,19 @@ class UsersController < ApplicationController
 
   def update
     if @user.update user_params
-      flash[:success] = t("users_controller.update_success")
+      flash[:success] = t "users_controller.update_success"
       redirect_to @user
     else
-      flash[:danger] = t("users_controller.update_fail")
+      flash[:danger] = t "users_controller.update_fail"
       render :edit
     end
   end
 
   def destroy
     if @user.destroy
-      flash[:success] = t("users_controller.delete_success")
+      flash[:success] = t "users_controller.delete_success"
     else
-      flash[:danger] = t("users_controller.delete_fail")
+      flash[:danger] = t "users_controller.delete_fail"
     end
 
     redirect_to users_url
@@ -59,7 +59,7 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
     return if @user
 
-    flash[:danger] = t("users_controller.not_found")
+    flash[:danger] = t "users_controller.not_found"
     redirect_to root_path
   end
 
@@ -71,7 +71,7 @@ class UsersController < ApplicationController
     return if logged_in?
 
     store_location
-    flash[:danger] = t("users_controller.login_request")
+    flash[:danger] = t "users_controller.login_request"
     redirect_to login_url
   end
 
