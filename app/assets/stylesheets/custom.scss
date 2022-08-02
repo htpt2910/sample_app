@@ -149,3 +149,6 @@ input {
     color: red;
   }
 }
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
