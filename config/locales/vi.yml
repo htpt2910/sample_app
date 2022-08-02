@@ -75,3 +75,6 @@ vi:
     new_user: "Chưa có tài khoản?"
   sessions_controller:
     danger: "Tài khoản hoặc mật khẩu không hợp lệ"
+  session:
+    new:
+      remember_me: "Lưu tài khoản"

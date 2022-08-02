@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_07_29_065713) do
+ActiveRecord::Schema.define(version: 2022_08_02_032406) do
 
   create_table "column_stats", primary_key: ["db_name", "table_name", "column_name"], charset: "utf8mb3", collation: "utf8mb3_bin", comment: "Statistics on Columns", options: "ENGINE=Aria PAGE_CHECKSUM=1 TRANSACTIONAL=0", force: :cascade do |t|
     t.string "db_name", limit: 64, null: false
@@ -318,6 +318,7 @@ ActiveRecord::Schema.define(version: 2022_07_29_065713) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "password_digest"
+    t.string "remember_digest"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
