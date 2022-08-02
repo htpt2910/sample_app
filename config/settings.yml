@@ -21,3 +21,8 @@ numbers:
   password_min_length: 6
 user_helper:
   size: 80
+gravatar:
+  email: "https://gravatar.com/emails"
+  size: 50
+mail:
+  to: "to@example.org"
