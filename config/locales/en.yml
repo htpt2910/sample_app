@@ -65,8 +65,13 @@ en:
     welcome: "Welcome to the Sample App!"
   form:
     contain: "The form contains: "
-  user_controller:
+  users_controller:
     not_found: "User not found!"
+    update_success: "Profile updated!"
+    update_fail: "Update profile fail!"
+    delete_success: "User has been deleted!"
+    delete_fail: "Delete user fail!"
+    login_request: "Please log in!"
   login:
     title: "Login"
     cheering: "Login"
@@ -78,3 +83,13 @@ en:
   session:
     new:
       remember_me: "Remember me on this computer"
+  edit:
+    edit_user: "Edit user"
+    save: "Save changes"
+    cheering: "Update your profile"
+    change_link: "Change"
+  index:
+    title: "All users"
+  user:
+    delete: "Delete"
+    confirm: "Are you sure?"

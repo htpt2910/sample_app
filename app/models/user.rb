@@ -11,7 +11,8 @@ class User < ApplicationRecord
                       with: Regexp.new(Settings.numbers.VALID_EMAIL_REGEX, true)
                     },
                     uniqueness: true
-  validates :password, length: {minimum: Settings.numbers.password_min_length}
+  validates :password, length: {minimum: Settings.numbers.password_min_length},
+  allow_nil: true
   has_secure_password
 
   class << self

@@ -65,8 +65,13 @@ vi:
     welcome: "Chào mừng đến với Sample App!"
   form:
     contain: "Form bao gồm: "
-  user_controller:
+  users_controller:
     not_found: "Không tồn tại người dùng này!"
+    update_success: "Hồ sơ đã được cập nhật!"
+    update_fail: "Cập nhật hồ sơ thất bại!"
+    delete_success: "Người dùng đã bị xóa!"
+    delete_fail: "Xóa người dùng thất bại!"
+    login_request: "Hãy đăng nhập!"
   login:
     title: "Đăng nhập"
     cheering: "Đăng nhập"
@@ -78,3 +83,14 @@ vi:
   session:
     new:
       remember_me: "Lưu tài khoản"
+  edit:
+    edit_user: "Chỉnh sửa"
+    save: "Lưu thay đổi"
+    cheering: "Cập nhật hồ sơ"
+    change: "Thay đổi"
+  index:
+    title: "Tất cả người dùng"
+  user:
+    delete: "Xóa"
+    confirm: "Bạn chắc chắn chứ?"
+  
