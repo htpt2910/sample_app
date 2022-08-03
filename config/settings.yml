@@ -24,3 +24,5 @@ user_helper:
 gravatar:
   email: "https://gravatar.com/emails"
   size: 50
+mail:
+  to: "to@example.org"
