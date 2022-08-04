@@ -6,6 +6,7 @@ en:
     tutorial: "Ruby on Rails Tutorial"
     appname: "sample application."
     signup: "Sign up now!"
+    feed: "Micropost feed"
   help:
     title: "Help"
     cheering: "Help"
@@ -123,3 +124,26 @@ en:
   password_text:
     instruction: "To reset your password click the link below:"
     warning: "This link will expire in two hours."
+  post:
+    delete: "Delete"
+    confirm: "Sure?"
+    script1: "Posted "
+    script2: " ago."
+    placeholder: "Compose new micropost..."
+    post: "Post"
+    view_profile: "View my profile"
+    microposts: "microposts"
+    image_size_error: "should be less than 5MB"
+    create_success: "Microposts created!"
+    create_fail: "Micropost creation fail!"
+    delete_success: "Micropost deleted"
+    delete_fail: "delete fail"
+    not_available: "No post available!"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              image_format: "must be a valid image format"
+              image_size: "should be less than 5MB"
