@@ -28,3 +28,9 @@ mail:
   to: "to@example.org"
 password_reset:
   expired: 2
+post:
+  max_content_length: 140
+  size: 5
+  avatar_size: 50
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  image_resize: [500, 500]

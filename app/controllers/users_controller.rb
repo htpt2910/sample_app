@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @pagy, @users = pagy(User.all)
   end
 
-  def show; end
+  def show
+    @pagy, @users = pagy @user.microposts
+  end
 
   def new
     @user = User.new
@@ -63,19 +65,11 @@ class UsersController < ApplicationController
     redirect_to root_path
   end
 
-  def admin_user
-    redirect_to root_url unless current_user.admin?
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "users_controller.login_request"
-    redirect_to login_url
-  end
-
   def correct_user
     redirect_to root_url unless current_user? @user
+  end
+
+  def admin_user
+    redirect_to root_url unless current_user.admin?
   end
 end

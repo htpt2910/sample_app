@@ -1,0 +1,22 @@
+<%= form_for(@micropost) do |f| %>
+<%= render "shared/error_messages", object: f.object %>
+  <div class="field">
+    <%= f.text_area :content, placeholder: t("post.placeholder") %>
+  </div>
+  <%= f.submit t("post.post"), class: "btn btn-primary" %>
+  <span class="image">
+    <%= f.file_field :image, accept: Settings.post.image_type %>
+  </span>
+<% end %>
+<script type="text/javascript">
+  const alert_message = "<%= t("post.image_size_error") %>";
+  const image_size = "<%= Settings.post.image_size %>"
+  console.log(alert_message);
+  console.log("chuc chut!");
+  $("#micropost_image").bind("change", function() {
+    var size_in_megabytes = this.files[0].size/1024/1024;
+    if (size_in_megabytes > image_size) {
+      alert(alert_message);
+    }
+  });
+</script>
