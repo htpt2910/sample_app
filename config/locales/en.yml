@@ -106,3 +106,20 @@ en:
     greeting: "Hi"
   message:
     content: "Account not activated. Check your email for the activation link."
+  password_reset:
+    title: "Forgot password"
+    submit: "Submit"
+    reset: "Reset password"
+    confirm: "Confirmation"
+    update: "Update password"
+    info: "Email sent with password reset instructions"
+    danger: "Email address not found"
+    cant_blank: "can't be empty"
+    success: "Password has been reset."
+    fail: "Password reset fail!"
+    not_found: "User not found!"
+    expired: "Password reset has expired."
+    link: "Reset password"
+  password_text:
+    instruction: "To reset your password click the link below:"
+    warning: "This link will expire in two hours."

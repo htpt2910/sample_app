@@ -106,3 +106,20 @@ vi:
     greeting: "Xin chào"
   message:
     content: "Tài khoản của bạn chưa được kích hoạt. Hãy kiểm tra lại email!"
+  password_reset:
+    title: "Quên mật khẩu"
+    submit: "Lưu"
+    reset: "Đặt lại mật khẩu"
+    confirm: "Xác nhận"
+    update: "Cập nhật mật khẩu"
+    info: "Đã gửi hướng dẫn reset password đến mail của bạn."
+    danger: "Không tìm thấy địa chỉ email"
+    cant_blank: "không được để trống"
+    success: "Mật khẩu đã được thay đổi."
+    fail: "Thay đổi mật khẩu thất bại!"
+    not_found: "Người dùng không tồn tại!"
+    expired: "Link reset đã hết hạn."
+    link: "Reset password"
+  password_text:
+    instruction: "Để reset lại mật khẩu, hãy kích vào link dưới đây:"
+    warning: "Link này sẽ hết hạn sau 2 giờ"

@@ -26,3 +26,5 @@ gravatar:
   size: 50
 mail:
   to: "to@example.org"
+password_reset:
+  expired: 2
