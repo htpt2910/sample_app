@@ -95,6 +95,9 @@ en:
   user:
     delete: "Delete"
     confirm: "Are you sure?"
+    not_found: "User not found!"
+    follow: "Follow"
+    unfollow: "Unfollow"
   account:
     activate_success: "Account activated!"
     activate_fail: "Invalid activation link"
@@ -139,6 +142,15 @@ en:
     delete_success: "Micropost deleted"
     delete_fail: "delete fail"
     not_available: "No post available!"
+  following:
+    title: "Followings"
+    count: "followings"
+  follower:
+    title: "Followers"
+    count: "followers"
+  show_follow:
+    view: "view my profile"
+    title: "Microposts: "
   activerecord:
     errors:
       models:
