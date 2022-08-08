@@ -6,6 +6,7 @@ vi:
     tutorial: "Giáo trình Ruby on Rails"
     appname: "dành cho ứng dụng Sample."
     signup: "Đăng ký ngay!"
+    feed: "Micropost feed"
   help:
     title: "Giúp đỡ"
     cheering: "Giúp đỡ"
@@ -123,3 +124,26 @@ vi:
   password_text:
     instruction: "Để reset lại mật khẩu, hãy kích vào link dưới đây:"
     warning: "Link này sẽ hết hạn sau 2 giờ"
+  post:
+    delete: "Delete"
+    confirm: "Sure?"
+    script1: "Posted "
+    script2: " ago."
+    placeholder: "Compose new micropost..."
+    post: "Post"
+    view_profile: "View my profile"
+    microposts: "microposts"
+    image_size_error: "should be less than 5MB"
+    create_success: "Microposts created!"
+    create_fail: "Micropost creation fail!"
+    delete_success: "Micropost deleted"
+    delete_fail: "delete fail"
+    not_available: "No post available!"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              image_format: "must be a valid image format"
+              image_size: "should be less than 5MB"
